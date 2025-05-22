@@ -1,0 +1,3 @@
+*.log
+deno.lock
+certs/*.key

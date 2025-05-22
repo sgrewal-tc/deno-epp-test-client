@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "check_fee": "deno run --allow-run --allow-net --allow-read=certs --cert certs/ote-ca-bundle.crt main.ts"
+  },
+  "imports": {
+    "@std/cli/parse-args": "jsr:@std/cli/parse-args"
+  }
+}
